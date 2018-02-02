@@ -1,5 +1,4 @@
-var guessInput = "r";
-var letter = new Letter("r");
+
 
 function Letter(character, guessed) {
     this.character = character;
@@ -21,5 +20,6 @@ function Letter(character, guessed) {
     }
 }
 
+module.exports = Letter;
 
-letter.CheckGuess(guessInput);
+//letter.CheckGuess(guessInput);
