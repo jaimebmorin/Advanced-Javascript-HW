@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/jaimebmorin/Advanced-Javascript-HW#readme",
   "dependencies": {
-    "inquirer": "^5.0.1",
-    "require": "^2.4.20"
+    "inquirer": "^5.0.1"
   }
 }
