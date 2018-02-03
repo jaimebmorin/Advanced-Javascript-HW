@@ -1,5 +1,3 @@
-
-
 function Letter(character) {
     this.character = character;
     this.guessed = false;

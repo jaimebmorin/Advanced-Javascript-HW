@@ -1,7 +1,5 @@
 var Letter = require ("./Letter.js");
 
-
-
 function Word(wordArray){
     this.wordArray = wordArray;
     this.displayArray = [];

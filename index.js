@@ -1,15 +1,12 @@
 var Word = require ("./Word.js")
-var require 
+var inquire = require ("inquirer")
 
 var toGuessArray = ["BALROG", "CHUN LI", "DHALSIM", "CAMMY", "M BISON", "SHORYUKEN", "TATSUMAKI SENPUKYAKU", ];
 var toGuess = toGuessArray[Math.floor((Math.random() * 7))]
-var toGuessArray = [];
 var displayArray = [];
+var userGuess = 0;
+
 makeArray(toGuess);
-
-
-var userGuess = "H";
-
 
 function makeArray(word){
     for (var i = 0; i < word.length; i++) {
@@ -17,9 +14,10 @@ function makeArray(word){
     }
 }
 
-
-
-
-
 var ryu = new Word(toGuessArray);
-ryu.displayWord();
+
+function runGame(){
+    ryu.displayWord();
+}
+
+runGame();
