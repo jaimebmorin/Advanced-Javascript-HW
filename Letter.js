@@ -22,6 +22,5 @@ function Letter(character) {
 
 module.exports = Letter;
 
-//letter.CheckGuess(guessInput);
 
 
