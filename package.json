@@ -1,0 +1,22 @@
+{
+  "name": "advanced-javascript-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimebmorin/Advanced-Javascript-HW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimebmorin/Advanced-Javascript-HW/issues"
+  },
+  "homepage": "https://github.com/jaimebmorin/Advanced-Javascript-HW#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1"
+  }
+}
