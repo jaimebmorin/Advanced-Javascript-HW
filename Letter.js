@@ -1,3 +1,5 @@
+
+//letter contructor
 function Letter(character) {
     this.character = character;
     this.guessed = false;
@@ -14,6 +16,7 @@ function Letter(character) {
             this.displayCharacter();
         } else {
         this.displayCharacter();
+        guessesLeft = guessesLeft - 1;
         }
     }
 }
