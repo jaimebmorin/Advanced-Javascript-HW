@@ -6,7 +6,7 @@ var Letter = require ("./Letter.js");
 function Word(wordArray){
     this.wordArray = wordArray;
     this.displayArray = [];
-    this.displayWord = function () {
+    this.displayWord = function (guess) {
         for (var x = 0; x < wordArray.length; x++) {
             var letter = new Letter(wordArray[x]);
             this.displayArray.push(letter.displayCharacters());
