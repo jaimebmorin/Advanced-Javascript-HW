@@ -48,6 +48,8 @@ function takeGuess(){
         //everything works fine(ie guesses are registered correctly)
         //I'm just not sure how to get from this point to the letter.js function of checking the letter. 
         //Other than this everything else works fine.
+        //I can put this function inside the constructor but I don't think it goes there so I'm going to refrain from doing so
+        //at the moment unless I can't get it working at all after thinking about it more
     });    
 }
 
